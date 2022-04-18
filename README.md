@@ -1,7 +1,5 @@
 # RTMZ
 
-## Details
-
 |  |  |
 |---|---|
 | Author: | Davide Pasca |
@@ -20,3 +18,7 @@ Major features are:
 - Basic lighting and material properties
 - Z-Buffer (optional)
 - Cool menu interface
+
+![Screen-shot cow](docs/sshot_rtmz_cow_menu.png)
+![Screen-shot f-15](docs/sshot_rtmz_f15_shininess.png)
+![Screen-shot mask](docs/sshot_rtmz_mask_menu_res.png)

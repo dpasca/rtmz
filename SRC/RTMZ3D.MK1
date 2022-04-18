@@ -1,0 +1,137 @@
+!define BLANK ""
+c:\prog\src\rtmz\rel30\src\bmp_poly.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\&
+bmp_poly.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\bmp_poly.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 &
+-zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\bmp_potx.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\&
+bmp_potx.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\bmp_potx.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 &
+-zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\clp.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\clp.c&
+pp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\clp.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -zq -&
+otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\colors.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\co&
+lors.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\colors.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -z&
+q -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\frplasma.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\&
+frplasma.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\frplasma.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 &
+-zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\gl_matr.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\g&
+l_matr.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\gl_matr.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -&
+zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\m44.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\m44.c&
+pp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\m44.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -zq -&
+otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\matelib.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\m&
+atelib.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\matelib.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -&
+zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\o3dfile.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\o&
+3dfile.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\o3dfile.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -&
+zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\obj3d.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\obj&
+3d.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\obj3d.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -zq&
+ -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\polyeng.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\p&
+olyeng.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\polyeng.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -&
+zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\qua.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\qua.c&
+pp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\qua.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -zq -&
+otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\read3ds.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\r&
+ead3ds.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\read3ds.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -&
+zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\tdst_hp.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\t&
+dst_hp.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\tdst_hp.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -&
+zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\tdstuff.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\t&
+dstuff.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\tdstuff.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -&
+zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\trig.obj : c:\prog\src\rtmz\rel30\src\rtmz3d\trig&
+.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz3d\trig.cpp -i=C:\prog\WATCOM\h -i=rtmzos -w2 -e25 -s -zp4 -zq &
+-otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\rtmz3d.lib : c:\prog\src\rtmz\rel30\src\bmp_poly.&
+obj c:\prog\src\rtmz\rel30\src\bmp_potx.obj c:\prog\src\rtmz\rel30\src\clp.o&
+bj c:\prog\src\rtmz\rel30\src\colors.obj c:\prog\src\rtmz\rel30\src\frplasma&
+.obj c:\prog\src\rtmz\rel30\src\gl_matr.obj c:\prog\src\rtmz\rel30\src\m44.o&
+bj c:\prog\src\rtmz\rel30\src\matelib.obj c:\prog\src\rtmz\rel30\src\o3dfile&
+.obj c:\prog\src\rtmz\rel30\src\obj3d.obj c:\prog\src\rtmz\rel30\src\polyeng&
+.obj c:\prog\src\rtmz\rel30\src\qua.obj c:\prog\src\rtmz\rel30\src\read3ds.o&
+bj c:\prog\src\rtmz\rel30\src\tdst_hp.obj c:\prog\src\rtmz\rel30\src\tdstuff&
+.obj c:\prog\src\rtmz\rel30\src\trig.obj .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ %create rtmz3d.lb1
+!ifneq BLANK "bmp_poly.obj bmp_potx.obj clp.obj colors.obj frplasma.obj gl_m&
+atr.obj m44.obj matelib.obj o3dfile.obj obj3d.obj polyeng.obj qua.obj read3d&
+s.obj tdst_hp.obj tdstuff.obj trig.obj"
+ @for %i in (bmp_poly.obj bmp_potx.obj clp.obj colors.obj frplasma.obj gl_ma&
+tr.obj m44.obj matelib.obj o3dfile.obj obj3d.obj polyeng.obj qua.obj read3ds&
+.obj tdst_hp.obj tdstuff.obj trig.obj) do @%append rtmz3d.lb1 +'%i'
+!endif
+!ifneq BLANK ""
+ @for %i in () do @%append rtmz3d.lb1 +'%i'
+!endif
+ *wlib -b -c -n -q -p=512 rtmz3d.lib @rtmz3d.lb1
+

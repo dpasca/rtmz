@@ -1,0 +1,97 @@
+!define BLANK ""
+c:\prog\src\rtmz\rel30\src\bmp.obj : c:\prog\src\rtmz\rel30\src\rtmzos\bmp.c&
+pp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\bmp.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexan -ol&
+ -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\dosutil.obj : c:\prog\src\rtmz\rel30\src\rtmzos\d&
+osutil.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\dosutil.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexan&
+ -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\evt.obj : c:\prog\src\rtmz\rel30\src\rtmzos\evt.c&
+pp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\evt.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexan -ol&
+ -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\kbd.obj : c:\prog\src\rtmz\rel30\src\rtmzos\kbd.c&
+pp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\kbd.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexan -ol&
+ -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\mnu.obj : c:\prog\src\rtmz\rel30\src\rtmzos\mnu.c&
+pp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\mnu.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexan -ol&
+ -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\mou.obj : c:\prog\src\rtmz\rel30\src\rtmzos\mou.c&
+pp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\mou.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexan -ol&
+ -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\pascalib.obj : c:\prog\src\rtmz\rel30\src\rtmzos\&
+pascalib.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\pascalib.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexa&
+n -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\pcx.obj : c:\prog\src\rtmz\rel30\src\rtmzos\pcx.c&
+pp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\pcx.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexan -ol&
+ -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\tmr.obj : c:\prog\src\rtmz\rel30\src\rtmzos\tmr.c&
+pp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\tmr.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexan -ol&
+ -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\vesa.obj : c:\prog\src\rtmz\rel30\src\rtmzos\vesa&
+.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\vesa.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexan -o&
+l -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\vgapack.obj : c:\prog\src\rtmz\rel30\src\rtmzos\v&
+gapack.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzos\vgapack.cpp -i=C:\prog\WATCOM\h -w2 -e25 -s -zp4 -zq -otexan&
+ -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\rtmzos.lib : c:\prog\src\rtmz\rel30\src\bmp.obj c&
+:\prog\src\rtmz\rel30\src\dosutil.obj c:\prog\src\rtmz\rel30\src\evt.obj c:\&
+prog\src\rtmz\rel30\src\kbd.obj c:\prog\src\rtmz\rel30\src\mnu.obj c:\prog\s&
+rc\rtmz\rel30\src\mou.obj c:\prog\src\rtmz\rel30\src\pascalib.obj c:\prog\sr&
+c\rtmz\rel30\src\pcx.obj c:\prog\src\rtmz\rel30\src\tmr.obj c:\prog\src\rtmz&
+\rel30\src\vesa.obj c:\prog\src\rtmz\rel30\src\vgapack.obj .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ %create rtmzos.lb1
+!ifneq BLANK "bmp.obj dosutil.obj evt.obj kbd.obj mnu.obj mou.obj pascalib.o&
+bj pcx.obj tmr.obj vesa.obj vgapack.obj"
+ @for %i in (bmp.obj dosutil.obj evt.obj kbd.obj mnu.obj mou.obj pascalib.ob&
+j pcx.obj tmr.obj vesa.obj vgapack.obj) do @%append rtmzos.lb1 +'%i'
+!endif
+!ifneq BLANK ""
+ @for %i in () do @%append rtmzos.lb1 +'%i'
+!endif
+ *wlib -b -c -n -q -p=512 rtmzos.lib @rtmzos.lb1
+

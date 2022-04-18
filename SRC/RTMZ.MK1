@@ -1,0 +1,40 @@
+!define BLANK ""
+c:\prog\src\rtmz\rel30\src\rtmz.obj : c:\prog\src\rtmz\rel30\src\rtmz.cpp .A&
+UTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz.cpp -i=C:\prog\WATCOM\h -i=rtmzos -i=rtmz3d -w2 -e25 -s -zp4 -&
+zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\rtmz_sup.obj : c:\prog\src\rtmz\rel30\src\rtmz_su&
+p.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmz_sup.cpp -i=C:\prog\WATCOM\h -i=rtmzos -i=rtmz3d -w2 -e25 -s -z&
+p4 -zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\rtmzban.obj : c:\prog\src\rtmz\rel30\src\rtmzban.&
+cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzban.cpp -i=C:\prog\WATCOM\h -i=rtmzos -i=rtmz3d -w2 -e25 -s -zp&
+4 -zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\rtmzmenu.obj : c:\prog\src\rtmz\rel30\src\rtmzmen&
+u.cpp .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ *wpp386 rtmzmenu.cpp -i=C:\prog\WATCOM\h -i=rtmzos -i=rtmz3d -w2 -e25 -s -z&
+p4 -zq -otexan -ol -om -oc -oi -oa -or -oe20 -fp5 -fpi87 -mf -5r -bt=dos
+
+c:\prog\src\rtmz\rel30\src\rtmz.exe : c:\prog\src\rtmz\rel30\src\rtmz.obj c:&
+\prog\src\rtmz\rel30\src\rtmz_sup.obj c:\prog\src\rtmz\rel30\src\rtmzban.obj&
+ c:\prog\src\rtmz\rel30\src\rtmzmenu.obj c:\prog\src\rtmz\rel30\src\rtmz3d.l&
+ib c:\prog\src\rtmz\rel30\src\rtmzos.lib .AUTODEPEND
+ @c:
+ cd c:\prog\src\rtmz\rel30\src
+ @%write rtmz.lk1 NAME rtmz
+ @%append rtmz.lk1 FIL rtmz.obj,rtmz_sup.obj,rtmzban.obj,rtmzmenu.obj
+ @%append rtmz.lk1 LIBR rtmz3d.lib,rtmzos.lib
+ *wlink SYS dos4g op m d all op st=128000 op maxe=25 op q op symf @rtmz.lk1
+

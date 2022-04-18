@@ -1,0 +1,2 @@
+wmake -f rtmz.mk
+

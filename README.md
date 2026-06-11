@@ -19,6 +19,10 @@ Major features are:
 - Z-Buffer (optional)
 - Cool menu interface
 
+The original runtime model assets have been restored under `assets/RTMZ30/`.
+They were recovered from the historical `rtmz30.zip` archive mirrored by
+Scene.org; the runtime executable files are intentionally not vendored.
+
 ## Copyright
 
 Code and executables are my own. It's free to use. Redistribution should include credits.

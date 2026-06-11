@@ -1,0 +1,9 @@
+won't run ??
+Did you uncompress with pkunzip -d ??
+The archive needs to be decompressed with its full directory tree.
+
+crashes ??
+2 bad
+
+ciaox
+
